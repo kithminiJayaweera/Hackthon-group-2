@@ -17,7 +17,10 @@ const Hero = () => {
         <button className=" rounded-4xl mt-6 px-6 py-3 bg-white text-black transition"> Apply Now </button>
 
       </div>
-      <Stripe />
+
+      {/* <Stripe /> */}
+
+
 
     </div>
   );

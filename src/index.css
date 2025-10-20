@@ -18,6 +18,21 @@ html,body{
   font-family: 'Shlop', sans-serif;
 }
 
+
+/* @font-face {
+  font-family: 'Bloodcrow';
+  src: url('/fonts/bloodcrow.ttf') format('openType');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src:url('/fonts/CormorantGaramond-VariableFont_wght.ttf') format('trueType');
+  font-weight: normal;
+  font-style: normal;
+} */
+
 @theme inline {
   /* Existing radius variables */
   --radius-sm: calc(var(--radius) - 4px);

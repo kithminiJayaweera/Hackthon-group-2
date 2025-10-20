@@ -11,7 +11,6 @@ function App() {
     <>
       <NavItem />
       {/* <Career /> */}
-      <NavItem />
       <Hero />
       <InnovationSection />
       <NavItem />
