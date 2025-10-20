@@ -61,7 +61,7 @@ export default function NavItem() {
                 <button onClick={() => scrollToSection(id)}
                     className={`Shlop cursor-pointer transition 
                         ${activeSection === id ?
-                            "text-primary"
+                            "text-white"
                             : "text-background hover:text-primary"
                         }`}
                 >
@@ -96,19 +96,19 @@ export default function NavItem() {
                                 ease: "easeInOut"
                             }}
                         /> */}
-                        <img src={Logo} alt="Logo" className="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:w-[80px] lg:h-[80px]" />
-                        {/* <h1 className="Shlop text-[20px] sm:text-[24px] md:text-[32px] lg:text-[24px] xl:text-[32px] 2xl:text-[32px] text-primary text-shadow-sm text-shadow-black">
-                            Majestic Roar
-                        </h1> */}
+                        {/* <img src={Logo} alt="Logo" className="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:w-[80px] lg:h-[80px]" /> */}
+                        <h1 className="Shlop text-[20px] sm:text-[24px] md:text-[32px] lg:text-[24px] xl:text-[32px] 2xl:text-[32px] text-white text-shadow-sm text-shadow-black">
+                            Certix
+                        </h1>
                     </div>
                     <button
-                        className="lg:hidden flex flex-col gap-1 p-2 bg-primary rounded"
+                        className="lg:hidden flex flex-col gap-1 p-2 bg-transparent border-2 backdrop-blur-2xl rounded"
                         onClick={() => setIsOpen(!isOpen)}
                         aria-label="Toggle menu"
                     >
-                        <span className={`w-6 h-0.5 bg-black transition-all ${isOpen ? 'rotate-45 translate-y-1.5' : ''}`}></span>
-                        <span className={`w-6 h-0.5 bg-black transition-all ${isOpen ? 'opacity-0' : ''}`}></span>
-                        <span className={`w-6 h-0.5 bg-black transition-all ${isOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
+                        <span className={`w-6 h-0.5 bg-white transition-all ${isOpen ? 'rotate-45 translate-y-1.5' : ''}`}></span>
+                        <span className={`w-6 h-0.5 bg-white transition-all ${isOpen ? 'opacity-0' : ''}`}></span>
+                        <span className={`w-6 h-0.5 bg-white transition-all ${isOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
                     </button>
 
                     {/* Desktop Menu */}
@@ -134,8 +134,8 @@ export default function NavItem() {
                 </div>
 
                 {/* Mobile Menu Overlay */}
-                <div className={`lg:hidden fixed top-[80px] left-0 w-full h-auto bg-card transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-                    <div className="flex flex-col justify-center items-center h-full">
+                <div className={`lg:hidden fixed top-[80px] left-0 w-full h-auto backdrop-blur-2xl border-2 transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+                    <div className="flex flex-col justify-center items-center h-full ">
                         <ul className="flex flex-col gap-6 p-6 font-cute-dino text-[20px] text-center">
                             {renderLinks()}
                         </ul>
@@ -145,7 +145,7 @@ export default function NavItem() {
                             <input 
                                 type="text"
                                 placeholder="Enter your text..."
-                                className="border-2 font-cute-dino text-[16px] h-[48px] w-[159px] px-3 rounded cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary"
+                                className="border-2 font-cute-dino text-[16px] h-[48px] w-[159px] px-3 rounded-2xl text-white cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary"
                             />
                         </div>
                     </div>
