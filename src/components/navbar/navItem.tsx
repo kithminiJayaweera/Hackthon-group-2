@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 // Image Imports
 // import LogoGIF from "../../assets/Majestic hero gif.gif";
 // import LionPaw from "../../assets/Lion paw.svg";
+import Logo from "../../assets/halloween certix logo.png";
 
 
 
@@ -78,8 +79,8 @@ export default function NavItem() {
         <>
 
 
-            <nav className="fixed flex items-center justify-between w-full shadow-sm bg-[#072c01] z-50">
-                <div className="max-width flex items-center justify-between w-full md:px-[40px] 3xl:px-[160px] 2xl:px-[100px] px-[16px] py-[26px] md:py-[16px] shadow-2xl shadow-black">
+            <nav className="fixed flex items-center justify-between w-full bg-transparent backdrop-blur-sm z-50">
+                <div className="max-width flex items-center justify-between w-full md:px-[40px] 3xl:px-[160px] 2xl:px-[100px] px-[16px] py-[26px] md:py-[16px] ">
                     {/* Logo */}
                     <div className="flex items-center gap-[12px] md:gap-[16px] lg:gap-[8px]">
                         {/* <motion.img
@@ -95,10 +96,10 @@ export default function NavItem() {
                                 ease: "easeInOut"
                             }}
                         /> */}
-                        {/* <img src={LogoGIF} alt="Logo" className="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:w-[80px] lg:h-[80px]" /> */}
-                        <h1 className="Shlop text-[20px] sm:text-[24px] md:text-[32px] lg:text-[24px] xl:text-[32px] 2xl:text-[32px] text-primary text-shadow-sm text-shadow-black">
+                        <img src={Logo} alt="Logo" className="w-[40px] h-[40px] md:w-[48px] md:h-[48px] lg:w-[80px] lg:h-[80px]" />
+                        {/* <h1 className="Shlop text-[20px] sm:text-[24px] md:text-[32px] lg:text-[24px] xl:text-[32px] 2xl:text-[32px] text-primary text-shadow-sm text-shadow-black">
                             Majestic Roar
-                        </h1>
+                        </h1> */}
                     </div>
                     <button
                         className="lg:hidden flex flex-col gap-1 p-2 bg-primary rounded"
