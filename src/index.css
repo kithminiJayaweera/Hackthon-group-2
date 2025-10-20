@@ -3,6 +3,17 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@font-face {
+  font-family: 'Shlop';
+  src: url('/fonts/shlop rg.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Shlop {
+  font-family: 'Shlop', sans-serif;
+}
+
 @theme inline {
   /* Existing radius variables */
   --radius-sm: calc(var(--radius) - 4px);
