@@ -3,10 +3,24 @@
 
 @custom-variant dark (&:is(.dark *));
 
+<<<<<<< HEAD
 html,body{
   scroll-behavior: smooth;
   background-color: black;
 }
+=======
+@font-face {
+  font-family: 'Shlop';
+  src: url('/fonts/shlop rg.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Shlop {
+  font-family: 'Shlop', sans-serif;
+}
+
+>>>>>>> 77e8a823e836488799e518d6985eaef64aeff136
 @theme inline {
   /* Existing radius variables */
   --radius-sm: calc(var(--radius) - 4px);
