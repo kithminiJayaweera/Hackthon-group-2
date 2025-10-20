@@ -3,6 +3,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html,body{
+  scroll-behavior: smooth;
+  background-color: black;
+}
 @theme inline {
   /* Existing radius variables */
   --radius-sm: calc(var(--radius) - 4px);

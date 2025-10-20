@@ -1,7 +1,13 @@
+import Footer from "./components/ui/Footer";
+import Hero from "./components/ui/Hero";
+
+
 function App() {
   return (
     <>
-      <h1 className="text-primary text-3xl">hello world</h1>
+      <Hero />
+      <Footer />
+     
     </>
   );
 }
