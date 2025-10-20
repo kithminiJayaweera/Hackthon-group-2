@@ -3770,6 +3770,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+<<<<<<< HEAD
+"react-icons@npm:^5.5.0":
+  version: 5.5.0
+  resolution: "react-icons@npm:5.5.0"
+  peerDependencies:
+    react: "*"
+  checksum: 10c0/a24309bfc993c19cbcbfc928157e53a137851822779977b9588f6dd41ffc4d11ebc98b447f4039b0d309a858f0a42980f6bfb4477fb19f9f2d1bc2e190fcf79c
+=======
 "react-fast-marquee@npm:^1.6.5":
   version: 1.6.5
   resolution: "react-fast-marquee@npm:1.6.5"
@@ -3777,6 +3785,7 @@ __metadata:
     react: ">= 16.8.0 || ^18.0.0"
     react-dom: ">= 16.8.0 || ^18.0.0"
   checksum: 10c0/ea2378c4cd1eb323d004e8c2ff6222a7a4def311e00f0bd0c99adebc906aa56a078c2101b3c6697109b15dcf177bfa31edd95b9f7a114887072e3103fe234ecd
+>>>>>>> 2e4392539f4ddc8782e8804574a70ef598620b1d
   languageName: node
   linkType: hard
 
@@ -3839,6 +3848,7 @@ __metadata:
     prettier-plugin-tailwindcss: "npm:^0.6.11"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
+    react-icons: "npm:^5.5.0"
     react-fast-marquee: "npm:^1.6.5"
     react-router: "npm:^7.4.1"
     tailwind-merge: "npm:^3.3.0"
