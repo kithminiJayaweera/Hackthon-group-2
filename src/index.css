@@ -3,6 +3,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html,body{
+  scroll-behavior: smooth;
+  background-color: black
+}
 @font-face {
   font-family: 'Shlop';
   src: url('/fonts/shlop rg.otf') format('opentype');
